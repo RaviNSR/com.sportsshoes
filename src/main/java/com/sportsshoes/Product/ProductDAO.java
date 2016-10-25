@@ -9,6 +9,7 @@ public interface ProductDAO {
 	void delete(int ProductId);
 	Product getProduct(int ProductId);
 	public List <Product> getAllProducts();
+	public Product getProductWithMaxId();
 	
 	
 	

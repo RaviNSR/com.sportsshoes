@@ -14,7 +14,7 @@
        width="500" height="300" >
         </center>
         <center><h3>Who are we? And what can we do for you?</h3></center>
-       
+        <center><h3>There may be people that have more talent than you, but theres no excuse for anyone to work harder than you do</h3></center>
        
         <c:import url="/footer"/>	   
 </body>

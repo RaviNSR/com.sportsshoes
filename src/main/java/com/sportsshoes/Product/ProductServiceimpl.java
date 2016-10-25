@@ -29,12 +29,17 @@ public class ProductServiceimpl implements ProductService {
 
 	public Product getProduct(int ProductId) {
 		// TODO Auto-generated method stub
-		return null;
+		return pdao.getProduct(ProductId);
 	}
 
 	public List<Product> getAllProducts() {
 		// TODO Auto-generated method stub
-		return null;
+		return pdao.getAllProducts();
+	}
+
+	public Product getProductWithMaxId() {
+		// TODO Auto-generated method stub
+		return pdao.getProductWithMaxId();
 	}
 
 }

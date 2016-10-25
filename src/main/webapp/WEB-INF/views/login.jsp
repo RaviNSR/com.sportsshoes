@@ -22,19 +22,18 @@
 <div class="login">
             <div class="container">
                 <div class="login-grids">
-                    
-                
-                            <center> <h3>Login</h3></center>
+                    <div class="col-md-6 log">
+                             <h3>Login</h3>
                              <div class="strip"></div>
                              <p>Welcome, please enter the following to continue.</p>
                              
                              <form method="post" action="login">
                                  <h5><b>User Name:</b></h5>	
-                                 <input pattern="[A-Za-z]{10}" title="Enter Username" type="text" placeholder="User Name" required>
+                                 <input title="Enter Username" name="username" type="text" placeholder="User Name" required>
                                  <h5><b>Password:</b></h5>
-                                 <input  title="Enter Password"type="password"  placeholder="Password" required ><br>					
+                                 <input  title="Enter Password" type="password" name="password" placeholder="Password" required ><br>					
                                  <input type="submit" value="Login">
-                                 
+                                
                                  </form>
 
                             <a href="#">Forgot Password ?</a>
@@ -43,7 +42,6 @@
                 </div>
             </div>
         </div>    
-          
-            <c:import url="/footer"/>	
-</body>
+         </div>
+  </body>
 </html>

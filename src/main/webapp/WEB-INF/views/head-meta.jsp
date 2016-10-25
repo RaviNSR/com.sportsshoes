@@ -9,6 +9,8 @@
 <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/references/css/bootstrap.min.css">
 <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/references/css/style.css">
 <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/references/css/bootstrap.css">
+<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/references/css/bootstrap-3.3.4.css">
 
 <script src="${pageContext.request.contextPath}/resources/references/js/jquery-1.11.1.js"></script>
 <script src="${pageContext.request.contextPath}/resources/references/js/bootstrap.min.js"></script>
+<script	type="text/javascript" src="${pageContext.request.contextPath}/resources/references/js/angular.min.js"></script>

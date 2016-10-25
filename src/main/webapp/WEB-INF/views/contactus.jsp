@@ -9,11 +9,11 @@
 </head>
 <body>
       <c:import url="/head"/>
-      
+      <center>
        <div class="contact">
             <div class=container>
                 <h3 align="center">Catch us</h3>
-                <div class="contact-content">
+                <div class="contact-content" align="center">
                     <form>
                         <input type="text" class="textbox" value=" Your Name" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'Your Name';}"><br>
                         <input type="text" class="textbox" value="Your E-Mail" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'Your E-Mail';}"><br>
@@ -21,11 +21,14 @@
                         <div>
                             <textarea value="Message:" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'Your Message ';}">Your Message</textarea><br>
                         </div>	
-                       <div class="submit"> 
-                            <input class="btn btn-default cont-btn" type="submit" value="SEND " align="middle"/>
+                       <div class="submit">
+                       <br> 
+                            <a href="${pageContext.request.contextPath}/contact" class="btn btn-lg btn-default" role="button">Catch US</a>
                       </div>
                     </form>
                     </div></div></div> 
+                    
+                    </center>
                     
                      <c:import url="/footer"/>	
 </body>

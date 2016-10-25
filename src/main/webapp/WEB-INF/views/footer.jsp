@@ -6,14 +6,16 @@
 
 
  <div class="footer-grid">
-            
-            <div align="center" >
-                    <h3>Social</h3>
+             <div class="container">
+            <div class="col-xl-6">
+                   <center> <h3>Social</h3></center>
                     <ul class="social">
-                        <li><a href="#" class="fb" style="margin-left:25px">facebook</a></li>
+                        <li><a href="#" class="fb">facebook</a></li>
                         <li><a href="#" class="twt">twitter</a></li>
                         <li><a href="#" class="gpls">g+ plus</a></li>
                         <div class="clearfix"></div>
                     </ul>
                 </div>
                 </div>
+                </div>
+               
